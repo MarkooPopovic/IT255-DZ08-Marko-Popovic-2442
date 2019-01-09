@@ -1,0 +1,334 @@
+body{
+    background-color: #fafafa;
+}
+h2{
+    color: black;
+}
+
+h2 span{
+    font-size: 4rem;
+    
+}
+h2, h3{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    line-height: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h3 span{
+    font-size: 3rem;
+}
+
+h2 span,
+h3 span{    
+    font-family: 'Italianno', cursive;
+    display: block;
+    color: red; 
+}
+
+/*Header section*/
+
+header a h1{
+    color: red;
+    padding: 10px;
+}
+header a:hover{
+    text-decoration: none;
+}
+
+/** Socials **/
+
+.socials ul{
+    list-style: none;
+}
+.socials ul li{
+    position: relative;
+    display: inline-block
+}
+
+.socials ul li a{
+    vertical-align: top;
+    content: '\f08e';
+    color: red;
+    font-size: 2rem;
+    display: inline-block;
+
+}
+
+.socials .fab{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.socials .fab:hover{
+    color: darkred;
+}
+
+
+
+/** Navigation **/
+
+.navigation{
+    background-color: #8ed3cc; 
+}
+
+.main-nav{
+background-image: url(../img/border_horizontal.png),
+                  url(../img/border_horizontal.png);
+background-repeat: repeat-x;
+background-position: 0px top, 0px bottom;
+}
+
+.main-nav .nav-item{
+    transition: background-color .3s ease;
+}
+
+.main-nav .nav-item:hover{
+    background-color: #39a69b;
+    border-radius: 10px;
+}
+
+.main-nav .nav-link{
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/** Carouisel **/
+
+.carousel .carousel-caption h3{
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 70%;
+}
+
+
+.new-website p{
+    font-size: 1.6rem;
+    color: #979797;
+    font-family: 'Lato', sans-serif;
+}
+
+/** image info **/
+
+.image-links img{
+    border: 6px solid white;
+    -webkit-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.image-links img:hover{
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(10deg);
+}
+
+.image-info{
+    background-color: #ffffff;
+    margin-top: -50px;
+}
+
+.image-info .btn-success{
+    background-color: red;
+    border: none;
+    border-radius: 0%
+}
+
+.image-info .btn-success:hover{
+    background-color: darkred;
+}
+/*Business hours*/
+.business-hours{
+    background-color: #8ed3cc;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+.business-hours h2{
+    color: #ffffff;
+}
+
+.bg-hours{
+    background-image: url(../img/bg_hours.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+}
+
+.table-danger th{
+    background-color: red;
+}
+.table-danger th:hover{
+    background-color:  darkred;
+}
+.table td,
+.table thead th{
+    border: none;
+}
+
+table tbody tr td{
+    padding: .35rem;
+}
+
+
+
+/* Products */
+
+.products .card{
+    border: none;
+}
+
+.products .card a{
+    color: #000;
+}
+
+.products .card a:hover{
+    text-decoration: none;
+}
+
+.products .card h3{
+    font-size: 1.3rem;
+    color: red;
+}
+
+.products .card p{
+    font-size: .8rem;
+    
+}
+.products .card p.price{
+    font-size: .1.5rem;
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+}
+
+/* Appointment */
+
+.appointment{
+    background-image: url(../img/bg_appointment.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.appointment h3{
+    font-size: 3.5rem;
+    color: #ffffff;
+    line-height: 4rem;
+}
+.appointment p{
+    line-height: 2.6rem;
+}
+
+.appointment .btn-primary{
+    background-color: #8ed3cc;
+    border: none;
+    border-radius: 0;
+    padding: 1rem 5rem;
+    font-family: 'Lato', sans-serif;
+}
+.appointment .btn-primary:hover{
+    background-color: #68beb5;
+}
+
+/* Footer */
+
+.site-footer p.copyright{
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+}
+
+/* About US */
+
+.hero {
+    position: relative;
+}
+
+.hero h2{
+    background-color: #8ed3cc;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    padding: 1rem 2rem 1rem 6rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+}
+.main-content p {
+    line-height: 2rem;
+}
+
+.sidebar.hours p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+.sidebar.hours{
+    background-color: #8ed3cc;
+    color: #fff;
+}
+
+/* Services */
+
+#services .card-header{
+    background-color: #e082a8;
+}
+
+#services .card-header h3 a{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+#service .card-block{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+aside.discount{
+    background-color: #8ed3cc;
+    color: #fff;
+    background-clip: content-box;
+}
+
+aside.discount .coupon{
+    border: 3px dashed white;
+}
+
+aside.discount .coupon p{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+aside.discount .coupon p span{
+    display: block;
+}
+
+/*Contanct form*/
+
+.contact-form{
+    border: 2px solid #9a9a9a;
+    background-color: white;
+}
+
+.contact-form .btn-primary{
+    background-color: #8ed3cc;
+    border: none;
+    border-radius: 0;
+    padding: 1rem 6rem;
+}
+.contact-form .btn-primary:hover{
+    cursor: pointer;
+    background-color: #6bbdb5;
+}
